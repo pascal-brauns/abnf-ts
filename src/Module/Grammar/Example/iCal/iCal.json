@@ -1,0 +1,209 @@
+[
+  [
+    {
+      "input": "BEGIN:VEVENT\r\n",
+      "output": { "name": "BEGIN", "value": "VEVENT", "params": [] }
+    },
+    {
+      "input": "CLASS:PUBLIC\r\n",
+      "output": { "name": "CLASS", "value": "PUBLIC", "params": [] }
+    },
+    {
+      "input": "DTSTART;VALUE=DATE:20260101\r\n",
+      "output": {
+        "name": "DTSTART",
+        "value": "20260101",
+        "params": [{ "name": "VALUE", "value": "DATE" }]
+      }
+    },
+    {
+      "input": "DTEND;VALUE=DATE:20260102\r\n",
+      "output": {
+        "name": "DTEND",
+        "value": "20260102",
+        "params": [{ "name": "VALUE", "value": "DATE" }]
+      }
+    },
+    {
+      "input": "DTSTAMP:20260101T000000Z\r\n",
+      "output": { "name": "DTSTAMP", "value": "20260101T000000Z", "params": [] }
+    },
+    {
+      "input": "LOCATION:Germany\r\n",
+      "output": { "name": "LOCATION", "value": "Germany", "params": [] }
+    },
+    {
+      "input": "LAST-MODIFIED:20231112T000000Z\r\n",
+      "output": { "name": "LAST-MODIFIED", "value": "20231112T000000Z", "params": [] }
+    },
+    {
+      "input": "SUMMARY;LANGUAGE=DE:Neujahrstag\r\n",
+      "output": {
+        "name": "SUMMARY",
+        "value": "Neujahrstag",
+        "params": [{ "name": "LANGUAGE", "value": "DE" }]
+      }
+    },
+    {
+      "input": "END:VEVENT\r\n",
+      "output": { "name": "END", "value": "VEVENT", "params": [] }
+    }
+  ],
+
+  [
+    {
+      "input": "BEGIN:VEVENT\r\n",
+      "output": { "name": "BEGIN", "value": "VEVENT", "params": [] }
+    },
+    {
+      "input": "CLASS:PUBLIC\r\n",
+      "output": { "name": "CLASS", "value": "PUBLIC", "params": [] }
+    },
+    {
+      "input": "DTSTART;VALUE=DATE:20260308\r\n",
+      "output": {
+        "name": "DTSTART",
+        "value": "20260308",
+        "params": [{ "name": "VALUE", "value": "DATE" }]
+      }
+    },
+    {
+      "input": "DTEND;VALUE=DATE:20260309\r\n",
+      "output": {
+        "name": "DTEND",
+        "value": "20260309",
+        "params": [{ "name": "VALUE", "value": "DATE" }]
+      }
+    },
+    {
+      "input": "DTSTAMP:20260308T000000Z\r\n",
+      "output": { "name": "DTSTAMP", "value": "20260308T000000Z", "params": [] }
+    },
+    {
+      "input": "LOCATION:Germany: Berlin, Mecklenburg-Vorpommern\r\n",
+      "output": {
+        "name": "LOCATION",
+        "value": "Germany: Berlin, Mecklenburg-Vorpommern",
+        "params": []
+      }
+    },
+    {
+      "input": "LAST-MODIFIED:20250222T000000Z\r\n",
+      "output": { "name": "LAST-MODIFIED", "value": "20250222T000000Z", "params": [] }
+    },
+    {
+      "input": "SUMMARY;LANGUAGE=DE:Internationaler Frauentag\r\n",
+      "output": {
+        "name": "SUMMARY",
+        "value": "Internationaler Frauentag",
+        "params": [{ "name": "LANGUAGE", "value": "DE" }]
+      }
+    },
+    {
+      "input": "END:VEVENT\r\n",
+      "output": { "name": "END", "value": "VEVENT", "params": [] }
+    }
+  ],
+
+  [
+    {
+      "input": "BEGIN:VEVENT\r\n",
+      "output": { "name": "BEGIN", "value": "VEVENT", "params": [] }
+    },
+    {
+      "input": "CLASS:PUBLIC\r\n",
+      "output": { "name": "CLASS", "value": "PUBLIC", "params": [] }
+    },
+    {
+      "input": "DTSTART;VALUE=DATE:20260403\r\n",
+      "output": {
+        "name": "DTSTART",
+        "value": "20260403",
+        "params": [{ "name": "VALUE", "value": "DATE" }]
+      }
+    },
+    {
+      "input": "DTEND;VALUE=DATE:20260404\r\n",
+      "output": {
+        "name": "DTEND",
+        "value": "20260404",
+        "params": [{ "name": "VALUE", "value": "DATE" }]
+      }
+    },
+    {
+      "input": "DTSTAMP:20260403T000000Z\r\n",
+      "output": { "name": "DTSTAMP", "value": "20260403T000000Z", "params": [] }
+    },
+    {
+      "input": "LOCATION:Germany\r\n",
+      "output": { "name": "LOCATION", "value": "Germany", "params": [] }
+    },
+    {
+      "input": "LAST-MODIFIED:20230724T000000Z\r\n",
+      "output": { "name": "LAST-MODIFIED", "value": "20230724T000000Z", "params": [] }
+    },
+    {
+      "input": "SUMMARY;LANGUAGE=DE:Karfreitag\r\n",
+      "output": {
+        "name": "SUMMARY",
+        "value": "Karfreitag",
+        "params": [{ "name": "LANGUAGE", "value": "DE" }]
+      }
+    },
+    {
+      "input": "END:VEVENT\r\n",
+      "output": { "name": "END", "value": "VEVENT", "params": [] }
+    }
+  ],
+
+  [
+    {
+      "input": "BEGIN:VEVENT\r\n",
+      "output": { "name": "BEGIN", "value": "VEVENT", "params": [] }
+    },
+    {
+      "input": "CLASS:PUBLIC\r\n",
+      "output": { "name": "CLASS", "value": "PUBLIC", "params": [] }
+    },
+    {
+      "input": "DTSTART;VALUE=DATE:20260405\r\n",
+      "output": {
+        "name": "DTSTART",
+        "value": "20260405",
+        "params": [{ "name": "VALUE", "value": "DATE" }]
+      }
+    },
+    {
+      "input": "DTEND;VALUE=DATE:20260406\r\n",
+      "output": {
+        "name": "DTEND",
+        "value": "20260406",
+        "params": [{ "name": "VALUE", "value": "DATE" }]
+      }
+    },
+    {
+      "input": "DTSTAMP:20260405T000000Z\r\n",
+      "output": { "name": "DTSTAMP", "value": "20260405T000000Z", "params": [] }
+    },
+    {
+      "input": "LOCATION:Germany: Brandenburg\r\n",
+      "output": { "name": "LOCATION", "value": "Germany: Brandenburg", "params": [] }
+    },
+    {
+      "input": "LAST-MODIFIED:20231112T000000Z\r\n",
+      "output": { "name": "LAST-MODIFIED", "value": "20231112T000000Z", "params": [] }
+    },
+    {
+      "input": "SUMMARY;LANGUAGE=DE:Ostersonntag\r\n",
+      "output": {
+        "name": "SUMMARY",
+        "value": "Ostersonntag",
+        "params": [{ "name": "LANGUAGE", "value": "DE" }]
+      }
+    },
+    {
+      "input": "END:VEVENT\r\n",
+      "output": { "name": "END", "value": "VEVENT", "params": [] }
+    }
+  ]
+]
