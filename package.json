@@ -22,9 +22,12 @@
     "type": "git",
     "url": "https://github.com/pascal-brauns/abnf-ts"
   },
+  "author": {
+    "name": "pascal-brauns"
+  },
   "keywords": ["abnf"],
   "license": "MIT",
-  "description": "",
+  "description": "A type-safe, performant and easy to use ABNF (Augmented Backus-Naur Form) engine.",
   "devDependencies": {
     "@types/jest": "^30.0.0",
     "jest": "^30.2.0",
