@@ -18,7 +18,7 @@
     "jest:coverage": "jest --coverage",
     "test": "npm run jest"
   },
-  "keywords": [],
+  "keywords": ["abnf"],
   "license": "MIT",
   "description": "",
   "devDependencies": {
