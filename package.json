@@ -18,6 +18,10 @@
     "jest:coverage": "jest --coverage",
     "test": "npm run jest"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pascal-brauns/abnf-ts"
+  },
   "keywords": ["abnf"],
   "license": "MIT",
   "description": "",
