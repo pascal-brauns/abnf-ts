@@ -1,5 +1,9 @@
 # abnf-ts
 
+[![Tests](https://github.com/pascal-brauns/abnf-ts/actions/workflows/ci.yml/badge.svg)](
+  https://github.com/pascal-brauns/abnf-ts/actions/workflows/ci.yml
+)
+
 A type-safe, performant and easy to use ABNF (Augmented Backus-Naur Form) engine.
 
 ## Installation
