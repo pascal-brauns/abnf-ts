@@ -25,6 +25,7 @@
   "author": {
     "name": "pascal-brauns"
   },
+  "bugs": "https://github.com/pascal-brauns/abnf-ts/issues",
   "keywords": ["abnf"],
   "license": "MIT",
   "description": "A type-safe, performant and easy to use ABNF (Augmented Backus-Naur Form) engine.",
