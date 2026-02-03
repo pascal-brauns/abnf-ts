@@ -6,10 +6,16 @@
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
+      "require": "./dist/index.js",
+      "import": "./dist/index.js",
       "default": "./dist/index.js"
     }
   },
-  "files": ["dist", "README.md", "LICENSE"],
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "start": "npm run node",
     "prepublishOnly": "npm test && npm run tsc",
@@ -30,7 +36,9 @@
     "name": "pascal-brauns"
   },
   "bugs": "https://github.com/pascal-brauns/abnf-ts/issues",
-  "keywords": ["abnf"],
+  "keywords": [
+    "abnf"
+  ],
   "license": "MIT",
   "description": "A type-safe, performant and easy to use ABNF (Augmented Backus-Naur Form) engine.",
   "devDependencies": {

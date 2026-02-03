@@ -10,8 +10,8 @@
 
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
-    "module": "nodenext",
-    "target": "esnext",
+    "module": "commonjs",
+    "target": "es2020",
     "types": ["jest", "node"],
     // For nodejs:
     // "lib": ["esnext"],
@@ -37,7 +37,6 @@
 
     // Recommended Options
     "strict": true,
-    "jsx": "react-jsx",
     "verbatimModuleSyntax": false,
     "isolatedModules": true,
     "noUncheckedSideEffectImports": true,
