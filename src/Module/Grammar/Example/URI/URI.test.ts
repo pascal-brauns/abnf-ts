@@ -1,4 +1,4 @@
-import uri from './uri.json';
+import uri from './URI.json';
 
 import * as Evaluation from '@/Evaluation';
 import Grammar from '@/Grammar';
