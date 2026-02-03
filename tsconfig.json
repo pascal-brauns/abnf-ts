@@ -13,6 +13,7 @@
     "module": "commonjs",
     "target": "es2020",
     "types": ["jest", "node"],
+    "lib": ["ES2022"],
     // For nodejs:
     // "lib": ["esnext"],
     // "types": ["node"],
@@ -42,5 +43,8 @@
     "noUncheckedSideEffectImports": true,
     "moduleDetection": "force",
     "skipLibCheck": true,
-  }
+    "resolveJsonModule": true,
+    "esModuleInterop": true
+  },
+  "exclude": ["**/*.test.ts"]
 }
