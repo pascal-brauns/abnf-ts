@@ -12,6 +12,7 @@
   "files": ["dist"],
   "scripts": {
     "start": "npm run node",
+    "prepublishOnly": "npm test && npm run tsc",
     "tsc": "tsc && tsc-alias",
     "node": "node --enable-source-maps dist",
     "jest": "jest",
